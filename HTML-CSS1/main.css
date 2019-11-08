@@ -1,31 +1,23 @@
-/* Create four equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 24%;
-    color: black;
-    margin: 0.3%
-  }
+
+html {
+  height: 100%;  
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 600px;   
+  background: #fff;
+  margin: 0px auto 0px; 
+  box-shadow: 1px 1px 2px #DAD7D7;
+  border-radius: 3px;  
+  padding: 10px;
+  margin-top: 10px;
   
-  /* On screens that are 992px wide or less, go from four columns to two columns */
-  @media screen and (max-width: 992px) {
-    .column {
-      width: 48%;
-      background-color: red;
-    }
-    h3 {
-        background-color: black;
-        height: 50px;
-        color: darkgoldenrod; 
-    }
-  }
-  
-  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      background-color: blue;
-    }
-  }
+}
+
 .head {
     border-style: solid;
     border-width: 1px;
@@ -33,6 +25,7 @@
     background-color: darkgoldenrod;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    text-align: center;
 }
 .name {
     padding-top: 10px;
@@ -45,19 +38,34 @@
     font-weight:bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
-    
+        
 }
 
 h3 {
     background-color: black;
-    height: 25px;
+    height: 20px;
     color: darkgoldenrod;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 5px;
     text-align: center;
 }
+h4 {
+  margin: 0px;
+  text-align: center;
+
+}
 .img {
     float: left;
-    padding: 5px;
-    padding-right: 10px;
+    padding: 0px;
+    text-align: center;
+}
+
+.iconphone {
+  position: absolute;
+  left: 640px;
+  margin-bottom: 3px;
+}
+.iconemail {
+  position: absolute;
+  left: 640px;
 }
