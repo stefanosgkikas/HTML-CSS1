@@ -58,14 +58,16 @@ h4 {
     float: left;
     padding: 0px;
     text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .iconphone {
-  position: absolute;
-  left: 640px;
+  position: relative;
+  left: 40px;
   margin-bottom: 3px;
 }
 .iconemail {
   position: absolute;
-  left: 640px;
+  left: 750px;
 }
